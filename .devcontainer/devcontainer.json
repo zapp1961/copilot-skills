@@ -1,11 +1,8 @@
 {
     // Name this configuration
     "name": "Codespace for Skills!",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "GitHub.copilot"
-            ]
-        }
-    }
+    //Use the base codespace image
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+    "remoteUser": "codespace",
+    "overrideCommand": false
 }
